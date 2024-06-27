@@ -1,0 +1,79 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.titulo {
+    color: #1c1c1c;
+}
+
+p {
+    color: #404040;
+}
+
+.cadastro,
+.listagem {
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.text-input {
+    background-color: #ffffff;
+    color: black;
+    width: 300px;
+    padding: 10px 5px;
+    border: 0;
+    outline: 1px solid #c0c0c0;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.text-input:focus {
+    background-color: #f1f1f1;
+    outline: 1px solid #000000;
+    transition: 0.4s ease;
+}
+
+.lista {
+    padding: 5px 0;
+    width: 45%;
+    border: 0;
+    display: inline-table;
+}
+
+.btn {
+    background-color: #000000;
+    border: 0;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 30px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f22020;
+    transition: 0.4s ease;
+}
+
+#erro {
+    color: red;
+}

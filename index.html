@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="cadastro">
+        <h1 class="titulo">Cadastro</h1>
+        <form action="" id="form-control" name="form-control">
+            <p><label for="nome-produto">Nome do Produto: </p>
+            <p><input type="text" id="nome-produto" class="text-input" placeholder="Digite aqui"></label></p>
+            <p><label for="descricao-produto">Descrição do Produto: </p>
+            <p><input type="text" id="descricao-produto" class="text-input" placeholder="Digite aqui"></label></p>
+            <p><label for="valor-produto">Valor do Produto: </p>
+            <p><input type="number" id="valor-produto" class="text-input" placeholder="Digite aqui"></label></p>
+            <p><label for="disponibilidade">Disponível? </p>
+            <p><input type="radio" name="disponibilidade">Sim</input><input type="radio" name="disponibilidade">Não</input></p></label>
+            <button onclick="enviar(); return false" class="btn">Cadastrar</button>
+            <p id="erro"></p>
+        </form>
+    </div>
+</body>
+
+</html>
